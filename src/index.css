@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(180deg,#000000 0%,#0b0014 40%,#1a0033 70%,#000000 100%);
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+.navbar-watchy{
+    background: black;
+}
+.navbar-links{
+    color: white;
+}

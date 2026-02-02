@@ -1,8 +1,13 @@
+import NavbarPage from "./components/NavbarPage";
+
 function App() {
 
   return (
     <>
-      <h1>Hola Watchy!!</h1>
+      <header>
+        <NavbarPage></NavbarPage>
+        <main></main>
+      </header>
     </>
   )
 }
