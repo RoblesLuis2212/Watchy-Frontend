@@ -5,7 +5,7 @@
 }
 .banner-image{
     width: 500px;
-    height: 600px;
+    height: 500px;
     object-fit: cover;
     object-position: center 40%;
 }
@@ -14,4 +14,14 @@
 }
 .image-breakingbad{
     object-position: top;
+}
+
+/* Media query para dispositivos mobiles */
+@media (max-width: 576px){
+    .banner-image{
+        height: 200px;
+    }
+    .image-brakingbad{
+        object-position: right;
+    }
 }
