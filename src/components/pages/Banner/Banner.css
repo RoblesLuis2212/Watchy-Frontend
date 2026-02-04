@@ -1,0 +1,17 @@
+.banner-section{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.banner-image{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center 40%;
+}
+.image-conjuro{
+    object-position: top;
+}
+.image-breakingbad{
+    object-position: top;
+}

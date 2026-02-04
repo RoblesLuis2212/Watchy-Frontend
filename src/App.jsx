@@ -1,3 +1,4 @@
+import Banner from "./components/pages/Banner/Banner";
 import NavbarPage from "./components/NavbarPage";
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
     <>
       <header>
         <NavbarPage></NavbarPage>
-        <main></main>
+        <main>
+          <Banner></Banner>
+        </main>
       </header>
     </>
   )
