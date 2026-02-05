@@ -13,8 +13,8 @@ function App() {
         </header>
         <main>
           <Banner></Banner>
-          <Footer></Footer>
         </main>
+        <Footer></Footer>
       </BrowserRouter>
     </>
   )
