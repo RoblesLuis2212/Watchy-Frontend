@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+.image-recomendado{
+    width: 200px;
+    height: 280px;
+    /* border-radius: 10px; */
+}
+.titulo-contenido-destacado{
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
