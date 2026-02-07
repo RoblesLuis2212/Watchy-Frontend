@@ -3,7 +3,13 @@
 .image-recomendado{
     width: 200px;
     height: 280px;
-    /* border-radius: 10px; */
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: box-shadow 0.25s ease, filter 0.25s ease, border 0.25s ease;
+}
+.image-recomendado:hover{
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    filter: brightness(1.08);
+    border: 1px solid rgba(255,255,255,0.25);
 }
 .titulo-contenido-destacado{
     font-family: "BBH Bartle", sans-serif;
