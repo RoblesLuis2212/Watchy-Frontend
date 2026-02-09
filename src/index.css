@@ -22,3 +22,6 @@ main{
     font-weight: 400;
     font-style: normal;
 }
+.btn-primario{
+    background: linear-gradient(135deg, #9d4edd, #5a189a);
+}

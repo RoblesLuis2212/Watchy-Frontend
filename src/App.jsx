@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import ContenidoRecomendado from "./components/pages/ContenidoRecomendado/ContenidoRecomendado";
 import SeccionPeliculas from "./components/pages/SeccionPeliculas/SeccionPeliculas";
 import SeccionSeries from "./components/pages/SeccionSeries/SeccionSeries";
+import Categorias from "./components/pages/Categorias/Categorias";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <ContenidoRecomendado></ContenidoRecomendado>
           <SeccionPeliculas></SeccionPeliculas>
           <SeccionSeries></SeccionSeries>
+          <Categorias></Categorias>
         </main>
         <Footer></Footer>
       </BrowserRouter>
