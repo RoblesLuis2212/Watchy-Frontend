@@ -4,29 +4,56 @@ import { Link } from 'react-router-dom';
 
 const Categorias = () => {
     return (
-        <section className='container border border-light'>
-            <h3 className='text-center'>Categorias</h3>
-            <div className="row">
-                <div className="d-flex justify-content-between align-items-between col-12 col-md-3 col-lg-12 border border-light">
-                    <Link className='text-decoration-none btn btn-primario'>Accion</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Drama</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Romantico</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Comedia</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Terror</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Fantasia</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Belico</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Crimen</Link>
+        <section className='container border rounded-4 border border-emphasis py-2 container-categorias'>
+            <h3 className='text-center titulo-peliculas'>Categorias</h3>
+            <div className="row g-2 justify-content-center">
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Accion</Link>
                 </div>
-                <div className="d-flex justify-content-between col-12 col-md-12 col-lg-12">
-                    <Link className='text-decoration-none btn btn-primario'>Anime</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Documental</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Comedia</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Suspenso</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Infantil</Link>
-                    <Link className='text-decoration-none btn btn-primario'>Animado</Link>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Drama</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Romatico</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Terror</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Fantasia</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Animada</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Belico</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Crimen</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Documental</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Comedia</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Ciencia Ficcion</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Suspenso</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Anime</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Aventura</Link>
+                </div>
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <Link className='btn btn-categorias w-100'>Misterio</Link>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
