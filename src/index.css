@@ -22,3 +22,12 @@ main{
     font-weight: 400;
     font-style: normal;
 }
+.btn-categorias{
+    background: linear-gradient(135deg, #9d4edd, #5a189a);
+    padding: 8px 18px;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+.container-categorias{
+    background: #1a1625;;
+}
