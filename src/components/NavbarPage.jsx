@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import "../index.css"
+import { Link } from 'react-router-dom';
 
 const NavbarPage = () => {
     return (
@@ -28,7 +29,7 @@ const NavbarPage = () => {
                         </InputGroup>
                     </Form>
                     <Nav className='d-flex gap-3 me-5'>
-                        <Nav.Link className='text-white'>Crear Cuenta</Nav.Link>
+                        <Nav.Link as={Link} to={"/registro"} className='text-white'>Crear Cuenta</Nav.Link>
                         <Nav.Link className='text-white'>Iniciar Sesion</Nav.Link>
                         <Nav.Link className='text-white'>Mi Lista</Nav.Link>
                     </Nav>

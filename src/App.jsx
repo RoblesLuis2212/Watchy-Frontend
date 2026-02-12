@@ -7,6 +7,7 @@ import SeccionPeliculas from "./components/pages/SeccionPeliculas/SeccionPelicul
 import SeccionSeries from "./components/pages/SeccionSeries/SeccionSeries";
 import Categorias from "./components/pages/Categorias/Categorias";
 import Contacto from "./components/pages/Contacto/Contacto";
+import Registro from "./components/pages/Registro/Registro";
 
 function App() {
 
@@ -34,6 +35,11 @@ function App() {
             <Route path="/contacto"
               element={<Contacto />}
             >
+            </Route>
+            <Route path="/registro"
+              element={<Registro />}
+            >
+
             </Route>
           </Routes>
         </main>
