@@ -31,3 +31,29 @@ main{
 .container-categorias{
     background: #1a1625;;
 }
+textarea{
+    resize: none;
+}
+.container-contacto{
+    background: rgba(20, 20, 20, 0.85);
+    backdrop-filter: blur(6px);
+}
+.fade-in{
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadein 0.5s ease-out forwards;
+}
+
+@keyframes fadein{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media query para dispositivos mobile */
+@media (max-width: 768px){
+    .btn-contacto{
+        width: 100%;
+    }
+}

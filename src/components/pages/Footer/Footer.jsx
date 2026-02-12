@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center align-items-md-start">
                     <h5 className="mt-2 mt-md-0 ">Ayuda</h5>
                     <Link className="text-secondary-emphasis link-underline-secondary link-underline-opacity-50">Politica de Privacidad</Link>
-                    <Link className="text-secondary-emphasis link-underline-secondary link-underline-opacity-50">Contacto</Link>
+                    <Link to={"/contacto"} className="text-secondary-emphasis link-underline-secondary link-underline-opacity-50">Contacto</Link>
                     <Link className="text-secondary-emphasis link-underline-secondary link-underline-opacity-50">Soporte Tecnico</Link>
                     <Link className="text-secondary-emphasis link-underline-secondary link-underline-opacity-50">Quienes Somos</Link>
                 </div>
