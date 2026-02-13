@@ -44,6 +44,42 @@ textarea{
     animation: fadein 0.5s ease-out forwards;
 }
 
+/* Estilos globales para todos los inputs */
+input.form-control,
+textarea.form-control,
+select.form-control {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus {
+    background-color: #2d2d2d;
+    border: 1px solid #a855f7;
+    box-shadow: 
+        0 0 10px rgba(168, 85, 247, 0.5),
+        0 0 20px rgba(168, 85, 247, 0.3),
+        0 0 30px rgba(168, 85, 247, 0.2);
+    outline: none;
+    color: #ffffff;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+    color: #888;
+}
+
+/* Para inputs deshabilitados */
+input.form-control:disabled,
+textarea.form-control:disabled {
+    background-color: #1a1a1a;
+    border-color: #333;
+    color: #666;
+}
+
 @keyframes fadein{
     to{
         opacity: 1;
