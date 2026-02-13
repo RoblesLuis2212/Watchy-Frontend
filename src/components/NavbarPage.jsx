@@ -34,6 +34,7 @@ const NavbarPage = () => {
                         <Form className='mx-auto d-none d-md-block' style={{ width: "40%" }}>
                             <InputGroup>
                                 <Form.Control
+                                    className='input-search'
                                     placeholder="buscar pelicula o serie"
                                 />
                             </InputGroup>
