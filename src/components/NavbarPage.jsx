@@ -20,7 +20,7 @@ const NavbarPage = () => {
         <>
             <Navbar expand="lg" className="navbar-watchy">
                 <Container fluid>
-                    <Navbar.Brand className='ms-2'>Watchy<i className="bi bi-camera-reels-fill ms-2"></i></Navbar.Brand>
+                    <Navbar.Brand as={Link} to={"/"} className='ms-2'>Watchy<i className="bi bi-camera-reels-fill ms-2"></i></Navbar.Brand>
                     <Form className='mx-auto d-md-none' style={{ width: "40%" }}>
                         <InputGroup>
                             <Form.Control
