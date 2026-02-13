@@ -7,8 +7,15 @@ import "../index.css"
 import { Link } from 'react-router-dom';
 import { Modal } from 'bootstrap';
 import ModalLogin from './pages/Login/ModalLogin';
+import { useState } from 'react';
 
 const NavbarPage = () => {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+
     return (
         <>
             <Navbar expand="lg" className="navbar-watchy">
@@ -33,13 +40,13 @@ const NavbarPage = () => {
                         </Form>
                         <Nav className='d-flex gap-3 me-5'>
                             <Nav.Link as={Link} to={"/registro"} className='text-white'>Crear Cuenta</Nav.Link>
-                            <Nav.Link className='text-white'>Iniciar Sesion</Nav.Link>
+                            <Nav.Link className='text-white' onClick={handleShow}>Iniciar Sesion</Nav.Link>
                             <Nav.Link className='text-white'>Mi Lista</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <ModalLogin></ModalLogin>
+            <ModalLogin show={show} handleClose={handleClose} handleShow={handleShow}></ModalLogin>
         </>
     );
 };
